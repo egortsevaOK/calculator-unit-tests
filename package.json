@@ -1,0 +1,30 @@
+{
+  "name": "m5_calculator",
+  "version": "1.0.0",
+  "description": "ATM M5 Home Task Project using mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "mocha",
+    "unit",
+    "testing"
+    
+  ],
+  "author": "Olga",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^8.2.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {},
+  "nyc": {
+    "reporter": "html"
+  }
+}
